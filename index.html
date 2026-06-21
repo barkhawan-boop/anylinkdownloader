@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Download YouTube Downloader for Windows.">
+    <title>YouTube Downloader for Windows</title>
+    <link rel="icon" type="image/png" href="assets/downloader_icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="YouTube Downloader home">
+        <img src="assets/downloader_icon.png" width="40" height="40" alt="">
+        <span>YouTube Downloader</span>
+      </a>
+      <a class="header-download" href="downloads/YouTubeDownloader.exe" download>Download</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Windows desktop app</p>
+          <h1 id="hero-title">YouTube Downloader</h1>
+          <p class="hero-text">
+            A simple Windows app for saving videos or audio files from supported links.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" id="downloadButton" href="downloads/YouTubeDownloader.exe" download>
+              Download for Windows
+            </a>
+            <span class="file-note" id="fileNote">EXE installer included</span>
+          </div>
+        </div>
+
+        <div class="app-preview" aria-label="Application preview">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="preview-body">
+            <img src="assets/downloader_icon.png" width="92" height="92" alt="">
+            <div>
+              <p class="preview-label">Ready to download</p>
+              <p class="preview-line strong"></p>
+              <p class="preview-line"></p>
+              <p class="preview-line short"></p>
+            </div>
+          </div>
+          <div class="preview-controls">
+            <span>MP4</span>
+            <span>MP3</span>
+            <span>Best quality</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="details" aria-label="Download details">
+        <div>
+          <h2>Built for quick use</h2>
+          <p>Install the Windows app, paste a supported video link, choose your format, and save the file.</p>
+        </div>
+        <div>
+          <h2>Cloudflare-ready</h2>
+          <p>This folder can be deployed directly to Cloudflare Pages as a static website.</p>
+        </div>
+        <div>
+          <h2>Download file</h2>
+          <p><a href="downloads/YouTubeDownloader.exe" download>YouTubeDownloader.exe</a></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
